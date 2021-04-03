@@ -3235,6 +3235,9 @@ textarea.form-control
     border-radius: .375rem;
     background-color: transparent;
 }
+.btn.draw-border {
+    border: 1px solid;
+}
 @media (prefers-reduced-motion: reduce)
 {
     .btn
@@ -4120,7 +4123,7 @@ input[type='text'],
 input[type='number']
 {
     border-width: 0px;
-    width: 80px;
+    width: 100px;
 }
 
 textarea {

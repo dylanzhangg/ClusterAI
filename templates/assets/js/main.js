@@ -116,6 +116,7 @@ function writetohtml(node) {
     document.getElementById("title").innerHTML = node.title;
     document.getElementById("authors").innerHTML = node.authors.join(', ');
     document.getElementById("description").innerHTML = node.description;
+    document.getElementById("urls").innerHTML = '';
     node.fulltextUrls.forEach(url => {
         var a = document.createElement('a');
         a.setAttribute('href',url);
