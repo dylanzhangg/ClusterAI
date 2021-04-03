@@ -297,8 +297,7 @@ th
 label
 {
     display: inline-block;
-
-    margin-bottom: .5rem;
+    margin: .5rem;
 }
 
 button
@@ -324,9 +323,8 @@ textarea
 
     margin: 0;
 }
-
-button,
-input
+input,
+button
 {
     overflow: visible;
 }
@@ -363,7 +361,7 @@ button::-moz-focus-inner,
 [type='reset']::-moz-focus-inner,
 [type='submit']::-moz-focus-inner
 {
-    padding: 0;
+    padding-top: 0;
 
     border-style: none;
 }
@@ -1800,9 +1798,9 @@ pre code
     }
     .col-lg-4
     {
-        max-width: 33.33333%; 
+        max-width: 80%; 
 
-        flex: 0 0 33.33333%;
+        flex: 0 0 80%;
     }
     .col-lg-5
     {
@@ -4116,6 +4114,17 @@ input[type='reset'].btn-block,
 input[type='button'].btn-block
 {
     width: 100%;
+}
+
+input[type='text'],
+input[type='number']
+{
+    border-width: 0px;
+    width: 80px;
+}
+
+textarea {
+    border: none;
 }
 
 .fade
@@ -15916,7 +15925,7 @@ button.bg-gray-dark:focus
 
 .bg-section-light
 {
-    background-color: #cbd5e0 !important;
+    background-color: #dee6ee !important;
 }
 
 .bg-section-dark
@@ -16646,7 +16655,7 @@ button.bg-black:focus
 
 .fill-section-light
 {
-    fill: #cbd5e0 !important;
+    fill: #dee6ee !important;
 }
 
 .stroke-section-light

@@ -25,7 +25,7 @@ sklearn==0.0
 sqlparse==0.4.1
 threadpoolctl==2.1.0
 tokenizers==0.10.1
-torch @ https://download.pytorch.org/whl/cpu/torch-1.8.1-cp39-none-macosx_10_9_x86_64.whl
+torch==1.8.1
 tqdm==4.59.0
 transformers==4.4.2
 typing-extensions==3.7.4.3

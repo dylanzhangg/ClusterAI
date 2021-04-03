@@ -6,11 +6,19 @@ import json
 # Create your views here.
 
 def view_raw_results(request, *args, **kwargs):
-	if "topic" in request.session:
-		query = request.session.get("topic")
-		articles_per_page = request.session.get("number_papers") if "number_papers" in request.session else 50
+	r = request.session
+	if "topic" in r and "number_papers" in r and "pages" in r:
+		query = r.get("topic")
+		
+		articles_per_page = r.get("number_papers")
+		articles_per_page = min(articles_per_page, 100)
+		articles_per_page = max(articles_per_page, 10)
 		print(articles_per_page)
-		pages = 2
+		
+		pages = r.get("pages")
+		pages = min(pages, 20)
+		pages = max(pages, 1)
+		print(pages)
 		
 		params = {
 			'page':1,

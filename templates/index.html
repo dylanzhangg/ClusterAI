@@ -50,8 +50,8 @@
         }
     </style>
     <script>
-        window.addEventListener("load", function() {
-            setTimeout(function() {
+        window.addEventListener("load", function () {
+            setTimeout(function () {
                 document.querySelector('body').classList.add('loaded');
             }, 300);
         });
@@ -70,13 +70,15 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <div class="modal fade" tabindex="-1" role="dialog" id="modal-cookies" data-backdrop="false" aria-labelledby="modal-cookies" aria-hidden="true">
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal-cookies" data-backdrop="false"
+        aria-labelledby="modal-cookies" aria-hidden="true">
         <div class="modal-dialog modal-dialog-aside left-4 right-4 bottom-4">
             <div class="modal-content bg-dark-dark">
                 <div class="modal-body">
                     <!-- Text -->
                     <p class="text-sm text-white mb-3">
-                        We use cookies so that our themes work for you. By using our website, you agree to our use of cookies.
+                        We use cookies so that our themes work for you. By using our website, you agree to our use of
+                        cookies.
                     </p>
                     <!-- Buttons -->
                     <a href="pages/utility/terms.html" class="btn btn-sm btn-white" target="_blank">Learn more</a>
@@ -86,16 +88,18 @@
         </div>
     </div>
     <!-- Go Pro -->
-    
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
             <!-- Brand -->
             <a class="navbar-brand" href="index.html">
-                <img alt="Image placeholder" style="width: 100px; height: 100px;" src="{% static 'assets/img/brand/favicon.png' %}" id="navbar-logo">
+                <img alt="Image placeholder" style="width: 100px; height: 100px; border-radius: 10%"
+                    src="{% static 'assets/img/brand/favicon.png' %}" id="navbar-logo">
             </a>
             <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Collapse -->
@@ -105,7 +109,8 @@
                         <a class="nav-link" href="index.html">Overview</a>
                     </li>
                     <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
-                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Pages</a>
 
                     </li>
                     <li class="nav-item ">
@@ -123,17 +128,24 @@
                 <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
                     <!-- Image -->
                     <figure class="w-100">
-                        <img alt="Image placeholder" src="{% static 'assets/img/svg/illustrations/illustration-3.svg' %}" class="img-fluid mw-md-120">
+                        <img alt="Image placeholder"
+                            src="{% static 'assets/img/svg/illustrations/illustration-3.svg' %}"
+                            class="img-fluid mw-md-120">
                     </figure>
                 </div>
                 <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
                     <!-- Heading -->
                     <h1 class="display-4 text-center text-md-left mb-3">
-                        Research Paper access<strong class="text-primary"> ReImagined</strong>
+                        Access to research papers<strong class="text-primary"> re-imagined</strong>
                     </h1>
                     <!-- Text -->
                     <p class="lead text-center text-md-left text-muted">
-                        Whether it be Research papers, essays, or written project proposals,We all know that getting the right research is key to having a successful project. And We're here to help ClusterAI uses machine learning and natural language processing to identify the best research resources that you need in just a few seconds. We also produce an interactive graph that visualizes the resources based on its key features, enabling you to figure out which paper is the best for you. Ready to get your hands on valuable research today? Try ClusterAI! Scroll down to get started.
+                        Whether it be research papers, essays, or written project proposals, we all know that getting
+                        the right research is key to having a successful project. We're here to help! ClusterAI uses
+                        machine learning and natural language processing to identify the best research resources that
+                        you need in just a few seconds. We also produce an interactive graph that visualizes the
+                        resources based on similarity, allowing you to figure out which papers are best for you. Ready
+                        to get your hands on valuable research today? Scroll down to get started.
                     </p>
                     <!-- Buttons
                     <div class="text-center text-md-left mt-5">
@@ -157,7 +169,8 @@
                     </span>
                     <h2 class=" mt-4">Ace your project using ClusterAI</h2>
                     <div class="mt-2">
-                        <p class="lead lh-180">Try it out by entering a query. From there we will find the best research papers regarding your topic in just a few seconds.</p>
+                        <p class="lead lh-180">Try it out by entering a query. From there we will find the best research
+                            papers regarding your topic in just a few seconds.</p>
                     </div>
                 </div>
             </div>
@@ -167,10 +180,12 @@
                     <div class="card">
                         <div class="card-body pb-5">
                             <div class="pt-4 pb-5">
-                                <img src="{% static 'assets/img/svg/illustrations/illustration-5.svg' %}" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                <img src="{% static 'assets/img/svg/illustrations/illustration-5.svg' %}"
+                                    class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
                             </div>
                             <h5 class="h4 lh-130 mb-3">Quick and Easy</h5>
-                            <p class="text-muted mb-0">In just a few seconds ClusterAI will output results in a 3D visualization.</p>
+                            <p class="text-muted mb-0">In just a few seconds ClusterAI will output results in a 3D
+                                visualization.</p>
                         </div>
                     </div>
                 </div>
@@ -178,10 +193,12 @@
                     <div class="card">
                         <div class="card-body pb-5">
                             <div class="pt-4 pb-5">
-                                <img src="{% static 'assets/img/svg/illustrations/illustration-6.svg' %}" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                <img src="{% static 'assets/img/svg/illustrations/illustration-6.svg' %}"
+                                    class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
                             </div>
                             <h5 class="h4 lh-130 mb-3">Get accurate results</h5>
-                            <p class="text-muted mb-0">ClusterAI makes sure to visualize accurate results that have are the most similar to your query.</p>
+                            <p class="text-muted mb-0">ClusterAI makes sure to visualize accurate results that have are
+                                the most similar to your query.</p>
                         </div>
                     </div>
                 </div>
@@ -189,10 +206,12 @@
                     <div class="card">
                         <div class="card-body pb-5">
                             <div class="pt-4 pb-5">
-                                <img src="{% static 'assets/img/svg/illustrations/illustration-7.svg' %}" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
+                                <img src="{% static 'assets/img/svg/illustrations/illustration-7.svg' %}"
+                                    class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
                             </div>
                             <h5 class="h4 lh-130 mb-3">Ace your project</h5>
-                            <p class="text-muted mb-0">Whether an essay, a research paper, or designing a project, ClusterAI will give you the necessary resources to get started on your research.</p>
+                            <p class="text-muted mb-0">Whether an essay, a research paper, or designing a project,
+                                ClusterAI will give you the necessary resources to get started on your research.</p>
                         </div>
                     </div>
                 </div>
@@ -200,7 +219,7 @@
         </div>
     </section>
 
-    <section class="slice slice-lg bg-section-secondary">
+    <section class="slice slice-lg bg-section-light">
         <div class="container text-center">
             <div class="row justify-content-center mb-6">
                 <div class="col-lg-8">
@@ -210,49 +229,51 @@
                     </h2>
                     <!-- Text -->
                     <p class="text-muted">
-                        Find inspiration for your next research project now!.
+                        Find inspiration for your next research project now!
                     </p>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <!-- Theme's logo -->
                         <!-- Webpixels' mission -->
-                        
-                        <div class="content-area">
-                            <div class="wrapper">
-                                <h2>Enter a topic</h2>
-                                <p class="output" style="position:relative; left:450px; top:2px">{{ output }}</p>
-                                <div class="container">
-                                    <form method="POST">
-                                        {% csrf_token %}
-                                        <label for="name">Enter topic name</label>
-                                        <textarea id="name" name="topic" cols="40" rows="15" class="text"></textarea>
-
-                                        <label for="number_papers">Enter how many papers you want to sample</label>
-                                        <input id="number_papers" type="text" name="number_papers"/>
-
-                                        <button class="btn draw-border" type="submit">Submit</button>
-                                    </form>
+                        <h2>Search for a topic!</h2>
+                        <!--p class="output" style="position:relative; left:450px; top:2px">{{ output }}</p-->
+                        <div class="row justify-content-center">
+                            <form method="POST" class="justify-content-center">
+                                {% csrf_token %}
+                                <textarea required id="name" name="topic" class="text" cols="70%"></textarea>
+                                <div class="row justify-content-center">
+                                    <label for="pages" class="col-form-label">Pages (1-20)</label>
                                 </div>
-                                <div class='container'>
-                                  <div id='bar' class='indeterminate-progress-bar active'>
-                                    <div class='progress-block single-segment'>
-                                    </div>
-                                  </div>
+                                <input required id="pages" type="number" name="pages" min="1" max="20" step="1"/>
+                                <div class="row justify-content-center">
+                                    <label for="number_papers" class="col-form-label">Papers per page (10-100)</label>
+                                </div>
+                                <input required id="number_papers" type="number" name="number_papers" min="10" max="100" step="1"/>
+                                <div class="row justify-content-center" style="margin-top:30px">
+                                    <button class="btn draw-border" type="submit">Submit</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                        <div class='container'>
+                            <div id='bar' class='indeterminate-progress-bar active'>
+                                <div class='progress-block single-segment'>
                                 </div>
                             </div>
                         </div>
- 
-                
                     </div>
                 </div>
-        
+
     </section>
     <footer class="position-relative" id="footer-main">
         <div class="footer pt-lg-7 footer-dark bg-dark">
             <!-- SVG shape -->
             <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
-                <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class=" fill-section-secondary">
+                <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px"
+                    viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve"
+                    class=" fill-section-light">
                     <polygon points="2560 0 2560 100 0 100"></polygon>
                 </svg>
             </div>
@@ -262,29 +283,32 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <!-- Theme's logo -->
                         <a href="index.html">
-                            <img alt="Image placeholder" src="{% static 'assets/img/brand/favicon.png' %}" alt="ClusterAI" id="footer-logo">
+                            <img alt="Image placeholder" src="{% static 'assets/img/brand/favicon.png' %}"
+                                alt="ClusterAI" id="footer-logo" style="border-radius: 10%">
                             <h1 style="color: white;">ClusterAI</h1>
                         </a>
                         <!-- Webpixels' mission -->
-                        <p class="mt-4 text-sm opacity-8 pr-lg-4">Using Natural language processing to find the best resources for your project.</p>
+                        <p class="mt-4 text-sm opacity-8 pr-lg-4">Using natural language processing to find the best
+                            resources for your project.</p>
                         <!-- Social -->
                         <div class="content-area">
-                            
-                            </div>
+
+                        </div>
                     </div>
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
-                        
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
-                        
-                    </div>
+                </div>
+                <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+
+                </div>
+                <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+
+                </div>
 
                 <hr class="divider divider-fade divider-dark my-4">
                 <div class="row align-items-center justify-content-md-between pb-4">
                     <div class="col-md-6">
                         <div class="copyright text-sm font-weight-bold text-center text-md-left">
-                            &copy; 2020 <a href="#" class="font-weight-bold" target="_blank">ClusterAI</a>. All rights reserved
+                            &copy; 2020 <a href="#" class="font-weight-bold" target="_blank">ClusterAI</a>. All rights
+                            reserved
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -306,7 +330,7 @@
                             </li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

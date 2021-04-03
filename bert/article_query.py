@@ -27,6 +27,7 @@ def get_queries(query, page_limit, params):
 
 		for i in range(2, pages+1):
 			params['page'] = i
+			print(i)
 			result = requests.get(url, params=params).json()
 			all_articles.extend(result["data"])
 			
