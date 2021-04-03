@@ -120,8 +120,11 @@ function writetohtml(node) {
         var a = document.createElement('a');
         a.setAttribute('href',url);
         a.innerHTML = url;
-    
+
+        var br = document.createElement('br');
+
         document.getElementById('urls').appendChild(a);
+        document.getElementById('urls').appendChild(br);
     })
 }
 
