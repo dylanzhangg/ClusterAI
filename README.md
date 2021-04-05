@@ -23,10 +23,6 @@ Search engines like Google Scholar make it easy to find research papers on a spe
 ## What it does
 Users will input either a text query or research paper into Cluster AI. Cluster AI uses **BERT (Bidirectional Encoder Representations from Transformers)**, a **Natural Language Processing model**, in order to connect users to similar papers. Cluster AI uses the CORE Research API to fetch research articles that may be relevant, then **visualizes the similarity of these papers in a 3d space**. Each node represents a research paper, and the distances between the nodes show the similarity between those papers. Using this, **users can visualize clusters of research papers with close connections** in order to quickly find resources that pertain to their topic. 
 
-Test Cluster AI [here](http://45.79.129.115:8000/)
-
-Check out the [Source Code!](https://github.com/RahulR100/LAHacks2021)
-
 ## How we built it
 We used a multitude of technologies, languages, and frameworks in order to build ClusterAI.
 1. **BERT** (Bidirectional Encoder Representations from Transformers) and **MDS** (Multidimensional Scaling) with **PyTorch** for the Machine Learning
