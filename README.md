@@ -2,10 +2,6 @@
 
 Explore a galaxy of research papers in 3D space using a state-of-the-art machine learning model
 
-## Working Demo
-
-[Working demo](http://45.79.129.115:8000/)
-
 ## Installation / Run local
 
 `git clone` this repository
